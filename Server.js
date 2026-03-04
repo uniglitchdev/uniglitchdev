@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const API_KEY = "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"; // Replace with OpenAI API key
+const API_KEY = "gh"; // Replace with OpenAI API key
 
 app.post("/chat", async (req, res) => {
     try {
